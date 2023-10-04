@@ -1,0 +1,209 @@
+
+.profile {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+.image {
+    width: 50%;
+    margin-top: 110px;
+    display: block;
+    float: left;
+    margin-right: 40px;
+    
+        
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 80px;
+    color: rgb(255,89,37);
+    font-size: 80px;
+
+    
+}
+p{
+    margin-left: 20px;
+    display: flex;
+    vertical-align: middle;
+    font-weight: bold;
+    
+}
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    padding: 20px 0; /* Padding for top and bottom of the footer content */
+    text-align: center; /* Center-align the text within the footer */
+}
+.skills > h2{
+    margin-bottom: 20PX;
+
+}
+/* Style for the skills section */
+.skills {
+    background-color: #f9f9f9; /* Background color for the skills section */
+    padding: 40px 0; /* Padding for top and bottom of the skills section */
+}
+
+/* Style for the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create a 3-column grid */
+    gap: 20px; /* Gap between grid items */
+    justify-items: center; /* Center-align grid items horizontally */
+    text-align: center; /* Center-align text within grid items */
+}
+
+/* Style for individual skill containers */
+.skill {
+    background-color: #fff; /* Background color for skill containers */
+    padding: 20px; /* Padding for each skill container */
+    border: 1px solid #ddd; /* Border for skill containers */
+    border-radius: 5px; /* Rounded corners for skill containers */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Box shadow for skill containers */
+    font-size: 18px; /* Font size for skills */
+    font-weight: bold; /* Bold text for skills */
+}
+/* Style for the resume section */
+.resume {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: left;
+    
+}
+
+/* Style for the resume link */
+.resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Change to your preferred button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-align: left;
+    
+}
+
+
+.resume a:hover {
+    background-color: #0056b3; /* Change to a darker shade on hover */
+    align-items: center;
+   
+}
+/* Default styles for desktop screens */
+.container {
+    width: 80%; /* Set a maximum width for your content */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    border: 30px;
+    text-align:center ;
+}
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust the width for tablet screens */
+        /* Other tablet-specific styles */
+    }
+    .image{
+        width: 100%;
+    }
+
+    /* Adjust styles for other elements as needed */
+}
+/* Media query for mobile devices */
+@media (max-width:576px) {
+    .container {
+        width: 95%; /* Adjust the width for mobile screens */
+        /* Other mobile-specific styles */
+
+    }
+    .image{
+        width: 100%;
+    }
+
+}
+a[href^="index2.html"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Change to your preferred button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-align: left; ; /* LinkedIn blue color */
+    text-decoration: none; /* Remove underlines from the link */
+    font-weight: bold;
+    margin-right: 3%; /* Add spacing between LinkedIn and email */
+    gap:10px
+}
+
+a[href^="https://www.linkedin.com/in/sunish-s-82710a209"] {
+    color: #0077B5; /* LinkedIn blue color */
+    text-decoration: none; /* Remove underlines from the link */
+    font-weight: bold;
+    margin-right: 3%; /* Add spacing between LinkedIn and email */
+}
+a[href^="https://github.com/Sunish1-28"] {
+    color: #333; /* LinkedIn blue color */
+    text-decoration: none; /* Remove underlines from the link */
+    font-weight: bold;
+    margin-right: 3%;
+    display: flex;
+    text-align: right;
+    gap: 10px;
+}
+a[href^="mailto:ssunish844@gmail.com"] {
+    color: #333; /* LinkedIn blue color */
+    text-decoration: none; /* Remove underlines from the link */
+    font-weight: bold;
+    margin-right: 3%; /* Add spacing between LinkedIn and email */
+    display: flex;
+    gap: 10px;
+}
+
+
+p img {
+    width: 20px; /* Adjust the image size as needed */
+    margin-right: 10px; /* Add spacing between the icon and text */
+}
+.social{
+    text-align:left;
+    
+}
+
+.social {
+    border: 1px solid #ccc; /* Add a border around the contact box */
+    padding: 20px; /* Add padding to create space inside the box */
+    margin: 20px 0; /* Add margin to separate the box from other content */
+    display: flex;
+}
+
+
+/* Add a border to the body element */
+body {
+    border: 4px solid #333; /* Set the border width and color */
+}
+
+/* Or add a border to a specific container, e.g., .container */
+.container {
+    border: 4px solid #333; /* Set the border width and color */
+}
+
+
+
+
+
+
+
+
+
+
+
